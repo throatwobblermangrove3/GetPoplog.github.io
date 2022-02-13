@@ -14,7 +14,6 @@ Now you need to install the appropriate build tools for your distribution. We
 have created a handy shortcut for this.
 ```sh
 $ make help-jumpstart
-$ make help-jumpstart
 # Jumpstarts are targets that install the dependencies for a particular
 # Linux distribution. Installing dependencies are not part of a normal
 # build process and they are provided as a convenience to admins.
@@ -32,7 +31,7 @@ $ make help-jumpstart
 
 Let's suppose we are on Ubuntu Linux, then we would continue like this:
 ```sh
-$ make jumpstart-ubuntu    # Install all the build tools needed for Ubuntu
+$ sudo make jumpstart-ubuntu    # Install all the build tools needed for Ubuntu
 $ make build               # Build Poplog
 $ sudo make install        # Install Poplog in /usr/local/poplog
 ```
